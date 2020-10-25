@@ -15,14 +15,14 @@ import (
 	"strings"
 	"sync"
 
-	"golang.org/x/mod/module"
-	"golang.org/x/tools/go/packages"
 	"github.com/charlievieth/tools/xint/event"
 	"github.com/charlievieth/tools/xint/lsp/debug/tag"
 	"github.com/charlievieth/tools/xint/lsp/source"
 	"github.com/charlievieth/tools/xint/memoize"
 	"github.com/charlievieth/tools/xint/span"
 	"github.com/charlievieth/tools/xint/typesinternal"
+	"golang.org/x/mod/module"
+	"golang.org/x/tools/go/packages"
 	errors "golang.org/x/xerrors"
 )
 

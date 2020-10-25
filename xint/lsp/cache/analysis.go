@@ -13,13 +13,13 @@ import (
 	"sort"
 	"sync"
 
-	"golang.org/x/sync/errgroup"
-	"golang.org/x/tools/go/analysis"
 	"github.com/charlievieth/tools/xint/analysisinternal"
 	"github.com/charlievieth/tools/xint/event"
 	"github.com/charlievieth/tools/xint/lsp/debug/tag"
 	"github.com/charlievieth/tools/xint/lsp/source"
 	"github.com/charlievieth/tools/xint/memoize"
+	"golang.org/x/sync/errgroup"
+	"golang.org/x/tools/go/analysis"
 	errors "golang.org/x/xerrors"
 )
 

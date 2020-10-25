@@ -7,8 +7,8 @@ package fillreturns_test
 import (
 	"testing"
 
-	"golang.org/x/tools/go/analysis/analysistest"
 	"github.com/charlievieth/tools/xint/lsp/analysis/fillreturns"
+	"golang.org/x/tools/go/analysis/analysistest"
 )
 
 func Test(t *testing.T) {

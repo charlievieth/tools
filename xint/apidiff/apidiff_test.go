@@ -12,8 +12,8 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/packages"
 	"github.com/charlievieth/tools/xint/testenv"
+	"golang.org/x/tools/go/packages"
 )
 
 func TestChanges(t *testing.T) {

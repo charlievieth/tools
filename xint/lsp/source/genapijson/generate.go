@@ -19,10 +19,10 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/go/packages"
 	"github.com/charlievieth/tools/xint/lsp/mod"
 	"github.com/charlievieth/tools/xint/lsp/source"
+	"golang.org/x/tools/go/ast/astutil"
+	"golang.org/x/tools/go/packages"
 )
 
 var (

@@ -11,11 +11,11 @@ import (
 	"go/token"
 	"go/types"
 
-	"golang.org/x/tools/go/analysis"
 	"github.com/charlievieth/tools/xint/lsp/analysis/fillstruct"
 	"github.com/charlievieth/tools/xint/lsp/analysis/undeclaredname"
 	"github.com/charlievieth/tools/xint/lsp/protocol"
 	"github.com/charlievieth/tools/xint/span"
+	"golang.org/x/tools/go/analysis"
 	errors "golang.org/x/xerrors"
 )
 

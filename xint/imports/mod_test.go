@@ -15,11 +15,11 @@ import (
 	"sync"
 	"testing"
 
-	"golang.org/x/mod/module"
 	"github.com/charlievieth/tools/xint/gocommand"
 	"github.com/charlievieth/tools/xint/gopathwalk"
 	"github.com/charlievieth/tools/xint/proxydir"
 	"github.com/charlievieth/tools/xint/testenv"
+	"golang.org/x/mod/module"
 	"golang.org/x/tools/txtar"
 )
 

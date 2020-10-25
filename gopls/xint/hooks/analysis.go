@@ -5,8 +5,8 @@
 package hooks
 
 import (
-	"golang.org/x/tools/go/analysis"
 	"github.com/charlievieth/tools/xint/lsp/source"
+	"golang.org/x/tools/go/analysis"
 	"honnef.co/go/tools/simple"
 	"honnef.co/go/tools/staticcheck"
 	"honnef.co/go/tools/stylecheck"

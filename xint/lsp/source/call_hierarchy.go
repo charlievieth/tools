@@ -12,11 +12,11 @@ import (
 	"go/types"
 	"path/filepath"
 
-	"golang.org/x/tools/go/ast/astutil"
 	"github.com/charlievieth/tools/xint/event"
 	"github.com/charlievieth/tools/xint/lsp/debug/tag"
 	"github.com/charlievieth/tools/xint/lsp/protocol"
 	"github.com/charlievieth/tools/xint/span"
+	"golang.org/x/tools/go/ast/astutil"
 	errors "golang.org/x/xerrors"
 )
 

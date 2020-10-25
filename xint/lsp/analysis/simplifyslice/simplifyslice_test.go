@@ -7,8 +7,8 @@ package simplifyslice_test
 import (
 	"testing"
 
-	"golang.org/x/tools/go/analysis/analysistest"
 	"github.com/charlievieth/tools/xint/lsp/analysis/simplifyslice"
+	"golang.org/x/tools/go/analysis/analysistest"
 )
 
 func Test(t *testing.T) {

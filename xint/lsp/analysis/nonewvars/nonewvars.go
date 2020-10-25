@@ -12,10 +12,10 @@ import (
 	"go/format"
 	"go/token"
 
+	"github.com/charlievieth/tools/xint/analysisinternal"
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/analysis/passes/inspect"
 	"golang.org/x/tools/go/ast/inspector"
-	"github.com/charlievieth/tools/xint/analysisinternal"
 )
 
 const Doc = `suggested fixes for "no new vars on left side of :="

@@ -14,14 +14,14 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/packages"
 	"github.com/charlievieth/tools/xint/analysisinternal"
 	"github.com/charlievieth/tools/xint/event"
 	"github.com/charlievieth/tools/xint/lsp/debug/tag"
 	"github.com/charlievieth/tools/xint/lsp/protocol"
 	"github.com/charlievieth/tools/xint/lsp/source"
 	"github.com/charlievieth/tools/xint/span"
+	"golang.org/x/tools/go/analysis"
+	"golang.org/x/tools/go/packages"
 	errors "golang.org/x/xerrors"
 )
 

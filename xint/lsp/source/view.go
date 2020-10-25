@@ -13,12 +13,12 @@ import (
 	"io"
 	"strings"
 
-	"golang.org/x/mod/modfile"
-	"golang.org/x/mod/module"
-	"golang.org/x/tools/go/analysis"
 	"github.com/charlievieth/tools/xint/imports"
 	"github.com/charlievieth/tools/xint/lsp/protocol"
 	"github.com/charlievieth/tools/xint/span"
+	"golang.org/x/mod/modfile"
+	"golang.org/x/mod/module"
+	"golang.org/x/tools/go/analysis"
 	errors "golang.org/x/xerrors"
 )
 

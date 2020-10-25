@@ -21,8 +21,6 @@ import (
 	"strings"
 	"sync"
 
-	"golang.org/x/mod/modfile"
-	"golang.org/x/mod/semver"
 	"github.com/charlievieth/tools/xint/event"
 	"github.com/charlievieth/tools/xint/gocommand"
 	"github.com/charlievieth/tools/xint/imports"
@@ -30,6 +28,8 @@ import (
 	"github.com/charlievieth/tools/xint/memoize"
 	"github.com/charlievieth/tools/xint/span"
 	"github.com/charlievieth/tools/xint/xcontext"
+	"golang.org/x/mod/modfile"
+	"golang.org/x/mod/semver"
 	errors "golang.org/x/xerrors"
 )
 

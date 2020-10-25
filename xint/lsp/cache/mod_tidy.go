@@ -15,7 +15,6 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/mod/modfile"
 	"github.com/charlievieth/tools/xint/event"
 	"github.com/charlievieth/tools/xint/lsp/debug/tag"
 	"github.com/charlievieth/tools/xint/lsp/diff"
@@ -23,6 +22,7 @@ import (
 	"github.com/charlievieth/tools/xint/lsp/source"
 	"github.com/charlievieth/tools/xint/memoize"
 	"github.com/charlievieth/tools/xint/span"
+	"golang.org/x/mod/modfile"
 )
 
 type modTidyKey struct {

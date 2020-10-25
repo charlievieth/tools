@@ -22,13 +22,13 @@ import (
 	"time"
 	"unicode"
 
-	"golang.org/x/tools/go/ast/astutil"
 	"github.com/charlievieth/tools/xint/event"
 	"github.com/charlievieth/tools/xint/imports"
 	"github.com/charlievieth/tools/xint/lsp/fuzzy"
 	"github.com/charlievieth/tools/xint/lsp/protocol"
 	"github.com/charlievieth/tools/xint/lsp/snippet"
 	"github.com/charlievieth/tools/xint/lsp/source"
+	"golang.org/x/tools/go/ast/astutil"
 	errors "golang.org/x/xerrors"
 )
 

@@ -19,10 +19,6 @@ import (
 	"strings"
 	"sync"
 
-	"golang.org/x/mod/modfile"
-	"golang.org/x/mod/module"
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/packages"
 	"github.com/charlievieth/tools/xint/event"
 	"github.com/charlievieth/tools/xint/gocommand"
 	"github.com/charlievieth/tools/xint/lsp/debug/tag"
@@ -31,6 +27,10 @@ import (
 	"github.com/charlievieth/tools/xint/packagesinternal"
 	"github.com/charlievieth/tools/xint/span"
 	"github.com/charlievieth/tools/xint/typesinternal"
+	"golang.org/x/mod/modfile"
+	"golang.org/x/mod/module"
+	"golang.org/x/tools/go/analysis"
+	"golang.org/x/tools/go/packages"
 	errors "golang.org/x/xerrors"
 )
 

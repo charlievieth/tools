@@ -8,9 +8,9 @@ import (
 	"go/ast"
 	"go/types"
 
-	"golang.org/x/mod/module"
 	"github.com/charlievieth/tools/xint/lsp/source"
 	"github.com/charlievieth/tools/xint/span"
+	"golang.org/x/mod/module"
 	errors "golang.org/x/xerrors"
 )
 

@@ -5,9 +5,9 @@
 package hooks
 
 import (
-	"github.com/sergi/go-diff/diffmatchpatch"
 	"github.com/charlievieth/tools/xint/lsp/diff"
 	"github.com/charlievieth/tools/xint/span"
+	"github.com/sergi/go-diff/diffmatchpatch"
 )
 
 func ComputeEdits(uri span.URI, before, after string) []diff.TextEdit {

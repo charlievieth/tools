@@ -7,8 +7,8 @@ package nonewvars_test
 import (
 	"testing"
 
-	"golang.org/x/tools/go/analysis/analysistest"
 	"github.com/charlievieth/tools/xint/lsp/analysis/nonewvars"
+	"golang.org/x/tools/go/analysis/analysistest"
 )
 
 func Test(t *testing.T) {

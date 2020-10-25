@@ -25,9 +25,9 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"golang.org/x/tools/go/ast/astutil"
 	"github.com/charlievieth/tools/xint/gocommand"
 	"github.com/charlievieth/tools/xint/gopathwalk"
+	"golang.org/x/tools/go/ast/astutil"
 )
 
 // importToGroup is a list of functions which map from an import path to

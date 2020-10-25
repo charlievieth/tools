@@ -12,9 +12,9 @@ import (
 	"go/types"
 	"strings"
 
-	"golang.org/x/tools/go/ast/astutil"
 	"github.com/charlievieth/tools/xint/event"
 	"github.com/charlievieth/tools/xint/lsp/protocol"
+	"golang.org/x/tools/go/ast/astutil"
 	errors "golang.org/x/xerrors"
 )
 

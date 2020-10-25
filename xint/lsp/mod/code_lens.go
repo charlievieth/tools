@@ -6,10 +6,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"golang.org/x/mod/modfile"
 	"github.com/charlievieth/tools/xint/lsp/protocol"
 	"github.com/charlievieth/tools/xint/lsp/source"
 	"github.com/charlievieth/tools/xint/span"
+	"golang.org/x/mod/modfile"
 )
 
 // LensFuncs returns the supported lensFuncs for go.mod files.

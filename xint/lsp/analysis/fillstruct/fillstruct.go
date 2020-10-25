@@ -15,12 +15,12 @@ import (
 	"go/types"
 	"unicode"
 
+	"github.com/charlievieth/tools/xint/analysisinternal"
+	"github.com/charlievieth/tools/xint/span"
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/analysis/passes/inspect"
 	"golang.org/x/tools/go/ast/astutil"
 	"golang.org/x/tools/go/ast/inspector"
-	"github.com/charlievieth/tools/xint/analysisinternal"
-	"github.com/charlievieth/tools/xint/span"
 )
 
 const Doc = `note incomplete struct initializations

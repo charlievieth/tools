@@ -23,14 +23,14 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/go/expect"
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/go/packages/packagestest"
 	"github.com/charlievieth/tools/xint/lsp/protocol"
 	"github.com/charlievieth/tools/xint/lsp/source"
 	"github.com/charlievieth/tools/xint/lsp/source/completion"
 	"github.com/charlievieth/tools/xint/span"
 	"github.com/charlievieth/tools/xint/testenv"
+	"golang.org/x/tools/go/expect"
+	"golang.org/x/tools/go/packages"
+	"golang.org/x/tools/go/packages/packagestest"
 	"golang.org/x/tools/txtar"
 )
 

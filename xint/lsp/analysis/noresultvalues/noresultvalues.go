@@ -11,10 +11,10 @@ import (
 	"go/ast"
 	"go/format"
 
+	"github.com/charlievieth/tools/xint/analysisinternal"
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/analysis/passes/inspect"
 	"golang.org/x/tools/go/ast/inspector"
-	"github.com/charlievieth/tools/xint/analysisinternal"
 )
 
 const Doc = `suggested fixes for "no result values expected"

@@ -7,11 +7,11 @@ import (
 	"go/token"
 	"strings"
 
-	"golang.org/x/mod/modfile"
 	"github.com/charlievieth/tools/xint/event"
 	"github.com/charlievieth/tools/xint/lsp/protocol"
 	"github.com/charlievieth/tools/xint/lsp/source"
 	"github.com/charlievieth/tools/xint/span"
+	"golang.org/x/mod/modfile"
 	errors "golang.org/x/xerrors"
 )
 

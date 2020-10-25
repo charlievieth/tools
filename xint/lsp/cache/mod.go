@@ -16,8 +16,6 @@ import (
 	"strings"
 	"unicode"
 
-	"golang.org/x/mod/modfile"
-	"golang.org/x/mod/module"
 	"github.com/charlievieth/tools/xint/event"
 	"github.com/charlievieth/tools/xint/lsp/debug/tag"
 	"github.com/charlievieth/tools/xint/lsp/protocol"
@@ -25,6 +23,8 @@ import (
 	"github.com/charlievieth/tools/xint/memoize"
 	"github.com/charlievieth/tools/xint/packagesinternal"
 	"github.com/charlievieth/tools/xint/span"
+	"golang.org/x/mod/modfile"
+	"golang.org/x/mod/module"
 	errors "golang.org/x/xerrors"
 )
 

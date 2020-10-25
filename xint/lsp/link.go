@@ -16,12 +16,12 @@ import (
 	"strings"
 	"sync"
 
-	"golang.org/x/mod/modfile"
 	"github.com/charlievieth/tools/xint/event"
 	"github.com/charlievieth/tools/xint/lsp/debug/tag"
 	"github.com/charlievieth/tools/xint/lsp/protocol"
 	"github.com/charlievieth/tools/xint/lsp/source"
 	"github.com/charlievieth/tools/xint/span"
+	"golang.org/x/mod/modfile"
 )
 
 func (s *Server) documentLink(ctx context.Context, params *protocol.DocumentLinkParams) (links []protocol.DocumentLink, err error) {

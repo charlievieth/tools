@@ -15,10 +15,10 @@ import (
 	"strings"
 	"unicode"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/ast/astutil"
 	"github.com/charlievieth/tools/xint/analysisinternal"
 	"github.com/charlievieth/tools/xint/span"
+	"golang.org/x/tools/go/analysis"
+	"golang.org/x/tools/go/ast/astutil"
 )
 
 func extractVariable(fset *token.FileSet, rng span.Range, src []byte, file *ast.File, _ *types.Package, info *types.Info) (*analysis.SuggestedFix, error) {

@@ -14,10 +14,10 @@ import (
 	"go/types"
 	"strings"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/ast/astutil"
 	"github.com/charlievieth/tools/xint/analysisinternal"
 	"github.com/charlievieth/tools/xint/span"
+	"golang.org/x/tools/go/analysis"
+	"golang.org/x/tools/go/ast/astutil"
 )
 
 const Doc = `suggested fixes for "undeclared name: <>"
