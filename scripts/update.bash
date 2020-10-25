@@ -85,6 +85,16 @@ move_package "$FROM/gopls/internal" "$TO/gopls/xint"
 
 fix_import_paths "$FROM/gopls" "$TO/gopls"
 
+# re-sort imports post-rename
+FIND_PRUNE_ARGS=(
+    -type d -name 'vendor' -o
+    -type d -name 'testdata' -o
+    -type d -name '.git' -o
+    -type f -name '*.pb.go'
+)
+find "$ROOT" \( "${FIND_PRUNE_ARGS[@]}" \) -prune -o -type f -name '*.go' -print0 |
+    xargs -0 -- goimports -w
+
 # TODO:
 #  1. go mod tidy
 #  2. git add / commit
